@@ -6,4 +6,23 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\ShortUrl.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\UrlShortener\ShortenedUrl.cshtml" />
+    <None Include="Views\UrlShortener\ExtendedUrl.cshtml" />
+    <None Include="Views\UrlShortener\index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\ShortenedUrl\" />
+  </ItemGroup>
+
 </Project>
