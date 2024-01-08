@@ -1,5 +1,7 @@
 # UrlShortenerWebApp
 
+⚠ A light-hearted side project, completed in about an hour, just to indulge my coding cravings and having git activity! 😅
+
 This is a web application developed using ASP.NET Core, focusing on web development, MVC pattern, handling HTTP requests, and potentially including database interaction for persisting short URLs.
 
 ## Description
